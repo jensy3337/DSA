@@ -1,3 +1,4 @@
+//input value from user
 #include <iostream>
 using namespace std;
 int main()
@@ -21,3 +22,21 @@ int main()
     
     return 0;
 }
+
+
+
+//normal
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int array[6] = {10, 20, 30, 40, 50, 60 };
+//     int size = sizeof(array)/sizeof(array[0]);
+//     int value = 80; 
+//     array[size] = value;
+//     size++ ;
+
+//     cout << "array after inserting element at end: ";
+//     for(int i = 0; i < size; i++){
+//         cout << array[i] << " ";
+//     }
+// }
