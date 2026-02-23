@@ -65,3 +65,46 @@ print("none")
 #   current = current.next
 # print("none")
 
+# #DELETION AT BEGGINING
+# head=head.next
+# head.prev=None
+#  #traversal after deletion
+# current = head
+# while current is not None:
+#   print(current.data,end="-->")
+#   current = current.next
+# print("none")
+
+
+
+# # DELETION AT END
+# current = head
+# while current.next.next is not None:
+#   current = current.next
+# current.next= None
+# #traversal after deletion
+# current = head
+# while current is not None:
+#   print(current.data,end="-->")
+#   current = current.next
+# print("none")
+
+
+
+
+#INSERTION AT ANY POINT
+current = head
+new_node = Node(20)
+new_node.next = current.next
+new_node.previous = current
+current.next = new_node
+current.next.previous = new_node
+#traversal after insertion
+current = head
+while current is not None:
+   print(current.data,end="-->")
+   current = current.next
+print("None")
+
+
+
