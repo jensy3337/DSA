@@ -1,4 +1,4 @@
-# insertion at end and beginning
+
 
 class Node:
     def __init__(self, data):
